@@ -14,6 +14,11 @@ function y
 	rm -f -- "$tmp"
 end
 
+# Clippy
+function clippy --description 'Copy stdin to clipboard via xclip'
+    xclip -selection clipboard
+end
+
 # NVM
 set -gx NVM_DIR $HOME/.nvm
 

@@ -33,7 +33,7 @@ IF [ -f /etc/redhat-release ]
     # Core:
     curl wget tar git make findutils which ca-certificates \
     # My favorites:
-    fish zoxide fzf ripgrep fd-find bat tree kitty \
+    fish zoxide fzf ripgrep fd-find bat tree kitty xclip \
     dnf-plugins-core
 
   # Languages:
